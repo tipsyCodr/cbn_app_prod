@@ -1,50 +1,122 @@
-# Welcome to your Expo app 👋
+# CBN App – Chhattisgarh Business Network 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+CBN (Chhattisgarh Business Network) is a mobile application built using **React Native with Expo**, created to foster local business growth through structured, referral-driven networking. This app is a digital extension of the CBN community — designed to help members send referrals, track thank-you notes, connect via one-to-one meetings, and grow their businesses within a trusted ecosystem.
 
-## Get started
+---
 
-1. Install dependencies
+## 🌱 About CBN
 
-   ```bash
-   npm install
-   ```
+**CBN** was founded to bridge the gap between local entrepreneurs in Chhattisgarh by creating a structured, referral-based business network where members support each other in their growth journey.
 
-2. Start the app
+### 🧭 Vision
+To empower local entrepreneurs of Chhattisgarh by building a trusted business network that promotes collaboration, growth, and opportunities through regional connection and community support.
 
-   ```bash
-    npx expo start
-   ```
+### 💡 Mission
+To create a strong and inclusive business ecosystem where business owners can:
+- Connect with each other
+- Exchange quality referrals
+- Learn and grow together  
+All while embracing the pride of our **Chhattisgarhi language and culture**.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 💎 What Makes CBN Unique?
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Operates **100% in Chhattisgarhi** for comfort and relatability
+- Focused on **trust, collaboration, and local empowerment**
+- Built **by locals, for locals** — with cultural pride at the core
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 💼 Core Values
 
+- **Trust & Integrity**: Strong relationships built on ethics and respect
+- **Local Empowerment**: Supporting homegrown businesses
+- **Collaboration Over Competition**: Growing together
+- **Cultural Pride**: Doing business in our own language
+- **Commitment to Growth**: Helping each member personally & professionally
+
+---
+
+## 🔄 How It Works
+
+### 📝 Membership Process
+1. Fill the online form  
+2. Attend an introductory meeting  
+3. Undergo basic orientation  
+
+### 🔁 Weekly Meeting Flow
+- Member Introductions  
+- Business Presentations  
+- Referral Exchange  
+- Training / Guest Sessions  
+- Networking Time  
+
+### 🎁 What Members Get
+- High-quality business leads  
+- Regular visibility within the network  
+- Business growth education  
+- A trusted support system  
+
+---
+
+## 📱 App Features
+
+- 🔄 **Send & Track Referrals**
+- 🎁 **Send Thank-You Notes (TYFCB)**
+- 👥 **Schedule One-to-One Meetings**
+- 🔔 **Notifications for Activity & Updates**
+- 📊 **Insightful Stats & Slips History**
+- 🌐 **Multi-tab Navigation (Given / Received)**
+- ✅ **Deep linking for notification redirection**
+
+---
+
+## 🛠️ Tech Stack
+
+- **React Native** with [Expo](https://expo.dev/)
+- **TypeScript**
+- **Expo Router** for navigation
+- **Native Base & Tailwind (optional) for UI**
+- REST API integration for dynamic data
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
 ```bash
-npm run reset-project
-```
+git clone https://github.com/your-org/cbn-app.git
+cd cbn-app
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+# or
+yarn
+3. Start development
+bash
+Copy
+Edit
+npx expo start
+📁 Project Structure
+bash
+Copy
+Edit
+/app
+  ├── (tabs)/           # Given / Received tabs
+  ├── notifications/    # Notification screen
+  ├── forms/            # Referral, TYFCB, One-to-One forms
+  └── slip-detail.tsx   # Individual slip screen
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+/components             # Shared components (FAB, modals, etc.)
+/utils                  # API functions and helpers
+/assets                 # Icons and images
+📬 Contact
+For questions, partnerships, or to join CBN:
 
-## Learn more
+📧 Email: connect@cbnchhattisgarh.com
+🌐 Website: https://cbnchhattisgarh.com
+📍 Location: Chhattisgarh, India
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
